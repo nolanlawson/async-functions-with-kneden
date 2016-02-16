@@ -1,9 +1,9 @@
-async-functions-with-regenerator
+async-functions-with-kneden
 ====
 
 A "hello world" showing how to use `async`/`await` (async functions) with [Babel](http://babeljs.io/)
-and [Regenerator](https://github.com/facebook/regenerator). Note in particular the
-`.babelrc` file and the use of `require('regenerator/runtime')`.
+and [Kneden](https://github.com/marten-de-vries/kneden). Note in particular the
+`.babelrc` file.
 
 Usage
 ---
@@ -30,4 +30,4 @@ To see the built version, run:
 
     npm run build
 
-This will create a `bundle.js` you can inspect. By my measurements, the total size after uglify+gzip is 2922 bytes.
+This will create a `bundle.js` you can inspect. By my measurements, the total size after uglify+gzip is 380 bytes.

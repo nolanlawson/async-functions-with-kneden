@@ -1,4 +1,4 @@
 {
-  "plugins": ["syntax-async-functions", "transform-regenerator"],
+  "plugins": ["syntax-async-functions", "kneden"],
   "presets": ["es2015"]
 }

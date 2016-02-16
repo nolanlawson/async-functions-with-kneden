@@ -1,6 +1,4 @@
-// "Hello world" with Babel, async functions, and Regenerator
-
-require('regenerator/runtime');
+// "Hello world" with Babel, async functions, and Kneden
 
 async function sayHello() {
   console.log(await Promise.resolve('hello world'));

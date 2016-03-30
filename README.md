@@ -31,3 +31,16 @@ To see the built version, run:
     npm run build
 
 This will create a `bundle.js` you can inspect. By my measurements, the total size after uglify+gzip is 380 bytes.
+
+Sample output
+----
+
+```js
+function sayHello() {
+  return Promise.resolve().then(function () {
+    return Promise.resolve('hello world');
+  }).then(function (_resp) {
+    console.log(_resp);
+  });
+}
+```
